@@ -1,7 +1,7 @@
 {
-  "version": "2.9.17",
+  "version": "2.9.18",
   "date": "2026-07-07",
   "firmware": "2.9.13",
-  "notes": "Scan blindado (nunca renomeia/mexe outra fechadura) · passo atual destacado · auto-preparo pós-gravação · avisos sonoros por evento · dica de quando remover o cabo · bloco de versão no header",
-  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.9.17"
+  "notes": "Scan blindado (nunca renomeia/mexe outra fechadura) · passo atual destacado · auto-preparo pós-gravação · avisos sonoros por evento · dica de quando remover o cabo · auto-cura de nome corrompido · header sem sobreposição",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.9.18"
 }
