@@ -1,0 +1,7 @@
+{
+  "version": "2.9.16",
+  "date": "2026-07-07",
+  "firmware": "2.9.13",
+  "notes": "Bloco de versao no header + scan blindado (nao renomeia fechadura errada) + passo atual destacado + auto-preparo pos-gravacao + avisos sonoros por evento",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.9.16"
+}
