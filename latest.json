@@ -1,7 +1,7 @@
 {
-  "version": "2.11.0",
+  "version": "2.11.1",
   "date": "2026-07-07",
-  "firmware": "2.11.0",
-  "notes": "Variante FI 1.5 SEM MOSFET (opcao no modelo; wake/status no PIO6 = BEFC000/AFTC008/STATUS6, byte 916) · FLUXO ENXUTO de 3 passos (Gravar-e-preparar → Testar → Cadastrar; provisionar+conectar unificados; hibernação saiu p/ Avançado e não roda mais automática) · BOD corrigido p/ 2,7V (0xFD — 4,3V dava reset perpétuo, caso 002584) · destrava módulos com herança legada PWRM1 (firmware manda PWRM0 primeiro em todo baud; bancada conserta PELO AR) · ADOÇÃO automática por ciclo de energia · teste direto por BLE sem regravar",
-  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.11.0"
+  "firmware": "2.11.1",
+  "notes": "Placas SEM MOSFET: usar a opcao FI 1.5 normal (provado em bancada+app que funcionam com a config padrao — a opcao beta 'sem MOSFET' da v2.11.0 foi removida) · FLUXO ENXUTO de 3 passos (Gravar-e-preparar → Testar → Cadastrar; provisionar+conectar unificados; hibernação saiu p/ Avançado e não roda mais automática) · BOD corrigido p/ 2,7V (0xFD — 4,3V dava reset perpétuo, caso 002584) · destrava módulos com herança legada PWRM1 (firmware manda PWRM0 primeiro em todo baud; bancada conserta PELO AR) · ADOÇÃO automática por ciclo de energia · teste direto por BLE sem regravar",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.11.1"
 }
