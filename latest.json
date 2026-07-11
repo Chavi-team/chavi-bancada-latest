@@ -1,7 +1,7 @@
 {
-  "version": "2.12.1",
-  "date": "2026-07-09",
+  "version": "2.12.2",
+  "date": "2026-07-11",
   "firmware": "2.12.1",
-  "notes": "Firmware v2.12.1: anti-duplicação POR COMANDO (FECHAR logo após ABRIR agora sempre gira — antes era engolido e o app mostrava sucesso sem motor; provado em bancada 09/07) + janela 6s→4s (retry humano de fechadura emperrada passa; tempestade de retry do app segue bloqueada) · inclui tudo da v2.12.0 (power-down desconectado, modo DEV, advi_test)",
-  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.1"
+  "notes": "Bancada v2.12.2: escolha SEGURA de fechadura em ambiente lotado — fallback só colado no Mac (rssi >= -60dBm); empate de sinal resolve por TST-INFO (identidade real da EEPROM, imune a nome corrompido/duplicado), senão aborta listando · firmware segue v2.12.1",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.2"
 }
