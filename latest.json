@@ -1,7 +1,7 @@
 {
-  "version": "2.12.2",
+  "version": "2.12.3",
   "date": "2026-07-11",
   "firmware": "2.12.1",
-  "notes": "Bancada v2.12.2: escolha SEGURA de fechadura em ambiente lotado — fallback só colado no Mac (rssi >= -60dBm); empate de sinal resolve por TST-INFO (identidade real da EEPROM, imune a nome corrompido/duplicado), senão aborta listando · firmware segue v2.12.1",
-  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.2"
+  "notes": "Bancada v2.12.3: reverte a escolha ativa da v2.12.2 (deu problema em campo) — volta ao critério clássico: prioridade por nome (serial exato > virgem > ffe0) e o RSSI mais forte (mais próxima) desempata · firmware segue v2.12.1",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.3"
 }
