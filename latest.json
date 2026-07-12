@@ -1,7 +1,7 @@
 {
-  "version": "2.12.3",
+  "version": "2.12.4",
   "date": "2026-07-11",
   "firmware": "2.12.1",
-  "notes": "Bancada v2.12.3: reverte a escolha ativa da v2.12.2 (deu problema em campo) — volta ao critério clássico: prioridade por nome (serial exato > virgem > ffe0) e o RSSI mais forte (mais próxima) desempata · firmware segue v2.12.1",
-  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.3"
+  "notes": "Bancada v2.12.4 (produção em lote): gravação 2 estágios refinada (EEPROM no lento — elimina falha de verificação em parte dos chips; flash rápido -13s), retry automático no 1º contato do USBasp, clone com MAC como nome aceito como virgem (provisionamento e adoção), scan com saída antecipada + reuso de sessão BLE · firmware segue v2.12.1",
+  "url": "https://github.com/Chavi-team/firmware-imovies-julho-2026/releases/tag/bancada-v2.12.4"
 }
